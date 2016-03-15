@@ -1,44 +1,46 @@
 *{margin: 0;padding:0;}/*清除浏览器默认样式*/
-.wrap,.left,.mainbody,.right{
-    border: 1px solid #999;
-    padding:20px;
-}
-.wrap{	
-    margin:20px;
-    background: #eee;
-    overflow: hidden;
-}
-.left{
-    width: 200px;
-    background: white;
-    float: left;
-}
+        .wrap,.left,.right,.mainbody{
+            border: 1px solid #999;
+        }
+        .wrap,.left,.mainbody{
+            padding:20px;
+        }
+        .wrap{
+            margin:20px;
+            background: #eee;
+            overflow: hidden;
+        }
+        .left{
+            width: 200px;
+            background: white;
+            float: left;
+        }
+        .left .logo{
+            width: 80px;
+            height: 80px;
+            float: left;
+            border: 1px solid #999;
+        }
+        .left .teamname{
+            overflow: hidden;
+            font-size: 16px;
+            padding-left:25px;
+        }
+        .right{
+            width: 120px;
+            background: white;
+            float: right;
+            
+        }
+        .right .members{
+            width: 80px;
+            height: 80px;
+            padding:15px 20px;
+        }
+        .mainbody{
+            min-width: 200px;
+            background: white;
+            margin-left: 260px;
+            margin-right:140px;
+        }
 
-.right{
-    width: 120px;
-    background: white;
-    float: right;
-}
-
-.mainbody{
-	background: white;
-    margin-left: 260px;
-    margin-right:180px;
-}
-
-.logo{
-	width: 80px;
-	height: 80px;
-    float: left;
-    border: 1px solid #999;
-}
-.teamname{
-    float: left;
-    margin-left: 25px;
-}
-.members{
-    border: 1px solid #999;
-    width: 80px;
-    height: 80px;
-    margin:20px;
-}

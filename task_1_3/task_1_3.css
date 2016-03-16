@@ -1,46 +1,55 @@
-*{margin: 0;padding:0;}/*清除浏览器默认样式*/
-        .wrap,.left,.right,.mainbody{
-            border: 1px solid #999;
-        }
-        .wrap,.left,.mainbody{
+        *{margin: 0;padding:0;}/*清除浏览器默认样式*/
+        body{
+            margin:0px;
             padding:20px;
         }
-        .wrap{
-            margin:20px;
-            background: #eee;
-            overflow: hidden;
+        div{
+            padding:20px;
+        }
+        .contain{
+            overflow:auto;
+            border: 1px solid #999;
+            background-color: #eee;
         }
         .left{
-            width: 200px;
-            background: white;
-            float: left;
-        }
-        .left .logo{
-            width: 80px;
-            height: 80px;
-            float: left;
+            float:left;
             border: 1px solid #999;
-        }
-        .left .teamname{
-            overflow: hidden;
-            font-size: 16px;
-            padding-left:25px;
+            background-color: white;
+            width: 160px;
         }
         .right{
-            width: 120px;
-            background: white;
-            float: right;
-            
-        }
-        .right .members{
+            float:right;
+            padding:20px;
+            border: 1px solid #999;
+            background-color: white;
             width: 80px;
-            height: 80px;
-            padding:15px 20px;
         }
-        .mainbody{
-            min-width: 200px;
-            background: white;
-            margin-left: 260px;
+        .center{
+            border: 1px solid #999;
+            margin-left: 220px;
             margin-right:140px;
+            background-color: white;
+        }
+        .logo{
+            width:80px;
+            height:80px;
+            padding:0px;
+            float:left;
+            border: 1px solid #999;
+            background-color: #0f0;
+            margin-bottom: 20px;
+        }
+        .margin0{
+            margin:0px;
+        }
+        .logo img{
+            padding-bottom:20px;
+        }
+        .teamName{
+            padding:0px;
+            float:right;
+            font-size: 16px;
+            font-family:"黑体";
+            font-weight: bold;
         }
 

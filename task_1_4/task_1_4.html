@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<mete char="UTF-8">
+	<title>任务4</title>
+	<style type="text/css">
+		body{
+			margin: 0 auto;
+			padding: 0;
+		}
+		.box{
+			width: 400px;
+			height: 200px;
+			background-color: #ccc;
+			margin: auto;  
+ 	 		position: absolute;  
+  			top: 0; left: 0; bottom: 0; right: 0; 
+  			overflow: hidden;
+		}
+		.circle{
+			width: 100px;
+			height: 100px;
+			background-color: #fc0;
+			-moz-border-radius: 50%;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+		}
+		#circle_left{
+			position:absolute;
+			left: -50px;
+			top: -50px; 
+		}
+		#circle_right{
+			position:absolute;
+			right:-50px;
+			bottom: -50px; 
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="circle" id="circle_left"></div>
+		<div class="circle" id="circle_right"></div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,116 @@
+        *{margin: 0;padding: 0;}
+        body{
+            background-color: #D0D0D0;
+        }
+        .header_a{
+        	background: #000000;
+        	overflow:auto;
+        }
+        .header_b img{
+        	width: 90px;
+        	height: 60px;
+        	margin-left: 40px;
+        }
+        .header_c{
+        	float: right;
+        }
+        .header_c ul{
+            list-style-type:square;
+        }
+        .header_c ul li{
+        	float: left;  
+        	padding-left:10px;
+
+        }
+        .header_c a{
+        	text-decoration: none;
+        	color:#FFFFFF;
+        }
+        /* .header_h a:visited{color:#707070;}*/
+        .article_a{
+            background: #FFFFFF;
+            margin: 20px;
+            padding: 20px;
+            overflow:auto;
+        }
+        .article_a ul li{
+            list-style: none;
+            padding: 10px;
+            margin-left: 20px;
+        }
+        .article_a span{
+            color: #808080;
+            line-height: 30px;
+        }
+        .article_a p{
+            display: inline-block;
+            line-height: 30px;
+        }
+        .article_a h1 h4{
+            font-family: "黑体";
+            line-height: 40px;
+        }
+        .article_a h4{
+            color: #808080; 
+        }
+        figure{
+            width: 140px;
+            border: 1px solid #808080;
+            margin-top: 15px;
+            margin-left: 45px;
+            padding: 15px;
+            text-align: center;
+        }
+        figcaption{
+            padding-bottom: 10px;
+        }
+        figure img{
+            width: 125px;
+            height: 120px;
+        }
+        .article_a ol li{
+            margin-left: 55px;
+            padding: 5px;
+        }
+        .table_a{
+            width: 100%;
+            border:1px solid #CECECE;
+            border-collapse: collapse;
+            font-family: ;
+        }
+        .table_a tr,td{
+            padding: 5px;
+            margin: 5px;
+            border:1px solid #CECECE;
+        }
+        tr:first-child{
+            color: #FFFFFF;
+            background-color: #000000;
+        }
+
+        tr:last-child{
+            background-color: #CCCCCC;
+        }
+        .aside_a{
+            text-align: center;
+            padding: 20px;
+        }
+        .submit{
+            width: 100%;
+            color: #FFFFFF;
+            padding: 8px;
+            font-size: 16px;
+            font-weight: block;
+            background-color: #6600FF;
+            border-radius: 8px;
+        }
+        .footer_a{
+            background-color: black;
+            height: 70px;
+            float: bottom;
+            margin-top:20px; 
+        }
+        .footer_a p{
+            color:white; 
+            text-align: center;
+        }

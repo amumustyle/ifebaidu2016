@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flexbox布局</title>
+    <style type="text/css">
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .flex-container {
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: space-between;
+
+        }
+        .flex-item1{
+            width: 150px;
+            height: 120px;
+            border: 1px solid #f00;
+            margin-top: 20px;
+        }
+        .flex-item2{
+            width: 150px;
+            height: 100px;
+            text-align: center;
+            border: 1px solid #f00;
+            margin-top: 20px;
+        }
+        .flex-item3{
+            width: 150px;
+            height: 40px;
+            text-align: center;
+            border: 1px solid #f00;
+            margin-top: 20px;
+        }
+        .flex-item4{
+            width: 150px;
+            height: 200px;
+            text-align: center;
+            border: 1px solid #0f0;
+        }
+        @media screen and (max-width: 640px) {
+            .flex-container {
+                align-items: baseline;
+                flex-wrap: wrap;
+            }
+
+            .flex-item4 {
+                order: 1;
+            }
+
+            .flex-item1 {
+                order: 2;
+            }
+
+            .flex-item2 {
+                order: 3;
+            }
+
+            .flex-item3 {
+                order: 4;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item1">1</div>
+        <div class="flex-item2">2</div>
+        <div class="flex-item3">3</div>
+        <div class="flex-item4">4</div>
+    </div>
+</body>
+</html>

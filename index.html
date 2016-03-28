@@ -7,11 +7,17 @@
   <title>IFE任务</title>
 
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-  <link href="http://getbootstrap.com/docs-assets/css/docs.css" rel="stylesheet" type="text/css" >
+  <link href="main/css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="http://getbootstrap.com/docs-assets/css/docs.css" rel="stylesheet" type="text/css" > -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
+      <style type="text/css">
+      .juli{margin: 60px 0;}
+      .feature-divider {
+            margin: 40px 0;
+        }
+      </style>
     </head>
     <body>
 
@@ -288,17 +294,11 @@
                 <a class="btn btn-primary">View</a>
               </div>
 
-              <div class="col-6 col-sm-6 col-lg-4"><!-- 把各个分辨率都调一样 -->
-                <h2>任务四十</h2>
-                <p>响应式网格（栅格化）布局</p><br/>
-                <a class="btn btn-primary">View</a>
-              </div>
-
             </div>
           </div>
 
           <div class="col-sm-3"><!-- 网站右侧导航占3栏 -->
-            <div class="list-group"><!-- 网站右侧导航 -->
+            <!-- <div class="list-group"><!-- 网站右侧导航-
               <a href="#" class="list-group-item active">
                 成员
               </a>
@@ -307,10 +307,102 @@
               <a href="#" class="list-group-item">WN</a>
               <a href="#" class="list-group-item">KSW</a>
               <a href="#" class="list-group-item">CSZ</a>
+            </div> -->
+            <!-- 成员侧栏 -->         
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" >
+                  <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="" aria-expanded="true" aria-controls="collapseOne">
+                      团队成员
+                    </a>
+                  </h4>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                  <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      吴宇澎
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="panel-body">
+                    什么被你轻视了，终会被你看重。你专注于一个方向，终会比别人走得远些！ 
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      舒慕蓉
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="panel-body">
+                    什么被你轻视了，终会被你看重。你专注于一个方向，终会比别人走得远些！
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      王楠
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                    什么被你轻视了，终会被你看重。你专注于一个方向，终会比别人走得远些！ 
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingFour">
+                  <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                      陈思卓
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseFour" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingFour">
+                  <div class="panel-body">
+                    什么被你轻视了，终会被你看重。你专注于一个方向，终会比别人走得远些！ 
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingFive">
+                  <h4 class="panel-title">
+                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                      阚思伟
+                    </a>
+                  </h4>
+                </div>
+                <div id="collapseFive" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingFive">
+                  <div class="panel-body">
+                    什么被你轻视了，终会被你看重。你专注于一个方向，终会比别人走得远些！ 
+                  </div>
+                </div>
+              </div>
             </div>
+            <!-- 成员侧栏 -->  
           </div>
 
         </div>
+
+        <hr class="feature-divider">
+        <footer class="juli">
+        <p class="pull-right"><a href="#top">回到顶部</a></p>
+
+        <p>&copy; 2016舒慕蓉 </p>
+        </footer>
       </div>
+      <script src="main/js/jquery-1.11.1.min.js"></script>
+      <script src="main/js/bootstrap.min.js"></script>
     </body>
     </html>

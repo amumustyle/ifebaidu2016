@@ -1,36 +1,39 @@
-        *{margin: 0;padding: 0;}
         body{
             background-color: #D0D0D0;
+            margin: 0;padding: 0;
         }
-        .header_a{
-        	background: #000000;
-        	overflow:auto;
+        .top{
+            min-width: 1105px;
+            height: 60px;
+            width: 100%;
+            background: #333;
         }
-        .header_b img{
-        	width: 90px;
-        	height: 60px;
-        	margin-left: 40px;
-        }
-        .header_c{
-        	float: right;
-        }
-        .header_c ul{
-            list-style-type:square;
-        }
-        .header_c ul li{
-        	float: left;  
-        	padding-left:10px;
+
+        .img{
+            float: left;
+            margin: -10px auto 4px 20px;
+            width: 150px;
+            height: 70px;
 
         }
-        .header_c a{
-        	text-decoration: none;
-        	color:#FFFFFF;
+        .top ul{float:right;}
+        .top li {
+            height: 50px;
+            line-height: 50px;
+            float: left;
+            margin-right: 20px; 
         }
-        /* .header_h a:visited{color:#707070;}*/
+        .top a{
+            color: #FFFFFF;
+            font-size: 15px;
+            text-decoration: none;
+        }
+
         .article_a{
+            min-width: 1000px;
             background: #FFFFFF;
-            margin: 20px;
-            padding: 20px;
+            margin: 25px;
+            padding: 25px;
             overflow:auto;
         }
         .article_a ul li{
@@ -91,10 +94,33 @@
         tr:last-child{
             background-color: #CCCCCC;
         }
-        .aside_a{
-            text-align: center;
-            padding: 20px;
+        .aside{
+            padding: 10px;
+            font-size: 14px;
+            line-height: 40px;
         }
+        .line{
+            float: left;
+            height: 40px;
+            border-left: 4px solid #D0D0D0;
+            padding: 3px;
+        }
+        .aside_a{
+            margin-left: 400px;
+        }
+        .aside_b{
+            margin-left: 427px;
+        }
+        .aside_c{
+            margin-left: 470px;
+            padding-right: 6px;
+        }
+        .aside_d{
+            float: left;
+            margin-left: 442px;
+            padding-right: 6px;
+        }
+        .aside_a span{margin-left: 507px;}
         .submit{
             width: 100%;
             color: #FFFFFF;
@@ -104,13 +130,11 @@
             background-color: #6600FF;
             border-radius: 8px;
         }
-        .footer_a{
+        .footer{
+            min-width: 1105px;
             background-color: black;
-            height: 70px;
-            float: bottom;
-            margin-top:20px; 
-        }
-        .footer_a p{
-            color:white; 
+            height: 40px;
             text-align: center;
+            color:white;
+            padding: 20px;
         }

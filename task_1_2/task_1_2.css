@@ -3,7 +3,7 @@
             margin: 0;padding: 0;
         }
         .top{
-            min-width: 1105px;
+            min-width: 1144px;
             height: 60px;
             width: 100%;
             background: #333;
@@ -30,7 +30,7 @@
         }
 
         .article_a{
-            min-width: 1000px;
+            min-width: 1040px;
             background: #FFFFFF;
             margin: 25px;
             padding: 25px;
@@ -95,6 +95,7 @@
             background-color: #CCCCCC;
         }
         .aside{
+            min-width: 1070px;
             padding: 10px;
             font-size: 14px;
             line-height: 40px;

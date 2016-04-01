@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	 	body{
+	 		margin: 0px;
+	 	}
+		.space{
+			width:700px;
+			position: relative;
+			height: 645px;
+			background-color: black;
+		}
+		.star{
+			top:140px;
+			left:155px;
+			position: absolute;
+			width: 300px;
+			height: 300px;
+			border-radius: 50%;
+			background-color:rgb(1,0,254);
+		}
+		.space-ship{
+			top:-10%;
+			left:50%;
+			position: absolute;
+			-webkit-transform-origin: 55px 180px;
+			-webkit-border-radius: 15px;
+			height:30px;
+			width: 110px;
+			overflow: hidden;
+			background-color:rgb(1,0,254);
+		}
+		.ship-head{
+		   	 position: absolute;
+	   		/* left: 1px; */
+	   		top: -34px;
+		    background-color: rgb(153,153,153);
+		    height: 100px;
+		    width: 114px;
+		    font-weight: bold;
+		    font-family: "黑体";
+		    text-indent:30px;
+		    white-space: 2px;
+		    line-height: 100px;
+		    -webkit-border-top-right-radius: 50px;
+		    -webkit-border-bottom-right-radius: 50px;
+		}
+		.center{
+			left:150px;
+			top:150px;
+			position:absolute;
+			width: 10px;
+			height:10px;
+			background-color: red;
+		}
+		.command-box{
+			
+		}
+		.command .text{
+			float:left;
+		}
+		.command:after{
+			clear:both;
+		}
+	
+	</style>
+</head>
+
+<body>
+	<div class="space">
+		<div class="star">
+			<!-- <div class="space-ship"><div class="ship-head">1 号-35%</div></div> -->
+			<div class="center"></div>
+		</div>
+	</div>
+	<div class="command-box">
+<!-- 		<div class="command">
+		<div class="text">
+		对1号飞船下达指令:
+		</div>
+		<div class="btn-grounp">
+			<button>开始飞行</button>
+			<button>停止飞行</button>
+			<button>销毁</button>
+		</div>
+	</div>
+ -->
+
+		<div class="new"><button new="true">新的飞船起飞</button></div>
+	</div>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

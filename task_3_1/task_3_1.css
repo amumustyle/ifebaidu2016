@@ -1,0 +1,65 @@
+	*{
+		margin:0px;
+		padding: 0px;
+		font: 14px "微软雅黑" ;		
+	}
+	.mainbody{
+		height: 3000px;
+		margin: 80px 580px 100px;
+	}
+	#showSurface{
+				width: 300px;
+				height: 40px;
+				color: white;
+				font-size: 25px;
+				background-color: #97CBFF;
+				border: 1px solid #46A3FF;
+				border-radius: 5px;
+				cursor: pointer;
+	}	
+	.shade{
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		left: 0;
+		top: 0;
+		background-color: rgba(0,0,0,0.15);
+	}
+	#surface{
+	    position: fixed;
+	    width: 400px;
+	    height: 200px;
+	    left:35%;
+	    top:30%;
+	    border:1px solid #46A3FF;
+	    border-radius: 8px;
+	    background-color: white;
+	    box-sizing: border-box;
+	}
+	#surface header{
+	    padding: 10px;
+	    background-color: #97CBFF;
+	    border-bottom: 1px solid #46A3FF;
+	    color: #ffffff;
+	    font-size: 14px;
+	    box-sizing: border-box;
+	}
+	#surface article{
+	    padding: 10px;
+	    color: #46A3FF;
+	}
+	#surface footer{
+	    position: absolute;
+	    width: 100%;
+	    bottom:0;
+	}
+	.surface-button{
+	    float:right;
+	    width: 80px;
+	    height: 30px;
+	    margin: 10px;
+	    background-color: #97CBFF;
+	    color: #ffffff;
+	    border: 1px solid #46A3FF;
+	    border-radius: 5px;
+	}

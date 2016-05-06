@@ -1,0 +1,32 @@
+.mainbody{margin: 0 auto;width: 210px;}
+#tab{border: 1px solid #ccc;width: 200px;height: 200px; font-size: 8px;display: none;overflow: hidden;}
+caption span{line-height: 30px;display: inline-block;font-weight: bold;}
+#prevyear,#prevmonth,#nextmonth,#nextyear{
+	width: 10px;
+	height: 10px;	
+	margin-left: 10px;
+}
+#prevyear{
+	background: url(o_nextprv.png) no-repeat;
+}
+#prevmonth{
+	background: url(left.png) no-repeat center;
+}
+#nextmonth{
+	background: url(right.png) no-repeat center;
+}
+#nextyear{
+	background: url(o_nextprv.png) no-repeat right 0px;
+}
+#nowdate{margin-left: 10px;}
+#tab tr td{width:24px;height: 21px;text-align: center;background: url(o_bg.png) no-repeat;}
+#tab tr td:first-child,
+#tab tr td:last-child{
+	color:#f00; 
+}
+#tab tr td:hover{
+	background: #6fa3ff;
+	color:#fff;
+	cursor:pointer;
+}
+input{background: url(o_nextprv.png) no-repeat right -18px;border: 1px solid #ccc;padding: 4px;}

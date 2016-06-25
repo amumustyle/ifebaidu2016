@@ -1,0 +1,209 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a, img {
+	/*禁止长按链接与图片弹出菜单*/
+	-webkit-touch-callout: none;
+}
+html, 
+body {
+	font-family: "SimSun";
+	font-size: 20px;
+	background: #dedede;
+	/*禁止选中文本，如无文本选中需求，此为必选项*/
+	/*-webkit-user-select: none; 
+	user-select: none;*/
+}
+.container {
+	max-width: 28rem; 
+	margin: 0 auto;	
+}
+.title {
+	position: relative;
+	height: 3.1rem;
+	text-align: center;
+	background: #90d6d8;
+	font-size: 1.6rem;
+}
+.title a {
+	margin-left: -.5rem;
+	line-height: 3.1rem;
+	text-decoration: none;
+	color: #fff;
+	vertical-align: middle;
+	font-size: 1.3rem;
+	vertical-align:  baseline;
+}
+.title img{
+	width: 1rem;
+	height: 1.3rem;
+}
+.title h1 {
+	display: inline;
+	line-height: 3.1rem;
+	color: #fff;
+}
+.back {
+	position: absolute;
+	text-indent: 1rem;
+}
+nav {
+	display: flex;
+}
+.border {
+	flex: 1;
+	height: 3.3rem;
+	text-align: center;
+	line-height: 3.3rem;
+	font-size: 1.3rem;
+}
+.nav2 {	
+	border-bottom: .15rem solid #91d4da;
+}
+section img {
+	width: 100%;
+	height: 15rem;
+}
+.label {
+	display: flex;
+	margin: 0 .5rem;
+	border-bottom: .1rem solid #dedede;
+}
+.label img {
+	width: 3rem;
+	height: 3rem;
+}
+.label span {
+	line-height: 2rem;
+	text-align: center;
+	display: inline-block;
+}
+.list {
+	margin: 1rem;
+	text-align: center;
+}
+.item {
+	display: flex;
+	text-align: center;
+	padding: .8rem;
+}
+.item img {
+	width: 100%;
+	height: 7rem;
+}
+
+.item h3 {
+	font-weight: bold;
+	margin: .5rem auto;
+}
+.item1,
+.item2 {
+	border-right: 0.1rem solid #dfdfdf;
+}
+nav,
+section {
+	background: #fff;
+}
+.writer1 {
+	margin: 1rem;
+	padding-bottom: .3rem;
+} 
+.writer1 h2 {
+	margin-top: .8rem;
+	font-size: 1.3rem;
+	font-weight: bold;
+	line-height: 3rem;
+	border-bottom: .1rem solid #dedede;
+}
+.w-bear {
+	width: 7rem;
+	height: 6.5rem;
+	border: .1rem solid #fcd08a;
+}
+.mod {
+	display: flex;
+	margin-top: .5rem;
+	justify-content: space-around;
+}
+.col p{
+	width: 8rem;
+	height: 3rem;
+	text-align: center;
+	line-height: 3.3rem;	
+	margin-bottom: .5rem;
+	background: #f8f8f8;
+}
+
+.item1-img  img {
+	width: 6.7rem;
+	height: 4.7rem;
+}
+.essay-item1,
+.essay-item2 {
+	display: flex;
+	padding: .5rem 1.2rem;  
+	border-bottom: .1rem solid #ecedef;
+}
+.item1-art {
+	margin-left: 1rem;
+}
+.item1-art h3,
+.essay-item3 h3 {
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+.item1-art p {
+	margin-top: 1.5rem;
+}
+.essay-item3 {
+	padding: 1rem;
+}
+.item3-img {
+	display: flex;
+	justify-content: space-around;
+}
+.item3-img img {
+	width: 7rem;
+	height: 4rem;
+	margin-top: 1rem;
+}
+.essay-item3 p {
+	line-height: 2rem;
+}
+
+@media screen and (max-width:500px){
+	    html,body{font-size:10px;}
+    }
+
